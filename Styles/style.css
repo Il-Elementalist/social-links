@@ -5,3 +5,19 @@
     font-style: normal;
     font-weight: 400;
 }
+
+body {
+    max-width: 375px;
+    height: 812px;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+}
+
+.card {
+    width: 327px;
+    height: 579px;
+    margin: 116px 24px;
+    padding: 24px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 12px;
+}
