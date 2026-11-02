@@ -15,7 +15,7 @@ body {
 }
 
 p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
 }
 
@@ -25,6 +25,14 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+button {
+    width: 279px;
+    height: 45px;
+    padding: 12px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
 }
 
 /* Classes Styles */
@@ -38,6 +46,14 @@ nav {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     position: relative;
+}
+
+h1 {
+    text-align: center;
+    width: 279px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .profile-info {
@@ -57,6 +73,23 @@ nav {
 .bio {
     position: absolute;
     top: 221px;
+    width: 279px;
+    height: 21px;
+    text-align: center;
+}
+
+.location {
+    width: 279px;
+    height: 21px;
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    font-size: 14px;
+}
+
+/* pseudo-class */
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
 }
 
 /* CSS Media Queries  */
