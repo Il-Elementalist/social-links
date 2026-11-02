@@ -1,4 +1,4 @@
-
+/* Font Face Definition */
 @font-face {
     src: url('../assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
     font-family: 'Inter', sans-serif;
@@ -6,6 +6,7 @@
     font-weight: 400;
 }
 
+/* HTML Elements Styles */
 body {
     max-width: 375px;
     height: 812px;
@@ -13,6 +14,7 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
+/* Classes Styles */
 .card {
     width: 327px;
     height: 579px;
@@ -20,4 +22,8 @@ body {
     padding: 24px;
     background-color: hsl(0, 0%, 12%);
     border-radius: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
+
+/* CSS Media Queries  */
