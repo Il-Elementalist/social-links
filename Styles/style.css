@@ -56,6 +56,16 @@ h1 {
     font-size: 24px;
 }
 
+footer {
+    position: absolute;
+    bottom: 24px;
+    width: 279px;
+    height: 21px;
+    text-align: center;
+    left: 44px;
+    font-size: 16px;
+}
+
 .profile-info {
     position: absolute;
     top: 136px;
@@ -87,7 +97,7 @@ h1 {
 }
 
 /* pseudo-class */
-button:hover {
+button:hover:focus {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
 }
