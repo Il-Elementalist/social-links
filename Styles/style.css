@@ -106,14 +106,57 @@ button:hover:focus {
 /* CSS Media Queries  */
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
     .card {
-        width: 327px;
+        width: 384px;
+        height: 611px;
+        margin: 206.5px 150px;
         border: solid 1px white;
+    }
+
+    .img-profile img {
+        width: 88px;
+        height: 88px;
+        border-radius: 50%;
+        position: absolute;
+        left: 148px;
+        top: 40px;
+    }
+
+    .profile-info {
+        position: absolute;
+        top: 140px;
+        left: 52px;
+    }
+
+    .bio {
+        position: absolute;
+        top: 237px;
+        left: 65px;
+    }
+
+    nav {
+        position: absolute;
+        top: 282px;
+        left: 70px;
+        margin-top: 16px;
+    }
+
+    #p-space {
+        position: absolute;
+        top: 35px;
+    }
+
+    footer {
+        position: absolute;
+        top: 900px;
+        width: 279px;
+        height: 21px;
+        text-align: center;
+        left: 220px;
+        font-size: 16px;
     }
 }
 
 @media only screen and (min-width: 1100px) {
     .card {
-        width: 90%;
-        padding-left: 5%;
     }
 }
