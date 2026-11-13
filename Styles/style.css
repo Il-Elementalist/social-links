@@ -8,8 +8,9 @@
 
 /* HTML Elements Styles */
 body {
-    max-width: 375px;
-    height: 812px;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
     background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 100%);
 }
